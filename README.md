@@ -19,7 +19,7 @@ Raksani Khunamas 6010546711
 
 ## Questions
 1. What is your `salary`?
-2. Where do you live (house/condominium/apartment)?
+2. Where do you live (house/condominium)?
 3. How many hour(s) do you have for your leisure?
 4. Do you have any small children with you?
 5. Do you have any `pet allergy symptoms`?
