@@ -36,6 +36,14 @@ noisy_consider(PET_TYPE,IS_NOISY):-
 	(IS_NOISY = "YES"),petRec:have_sound(PET_TYPE)|
 	(IS_NOISY = "NO" ,petRec:no_sound(PET_TYPE)).
 
+pet_rec(PET_TYPE,IS_NOISY,ALLER_FLEA,FREETIME,BUDGET,RES,HAVE_CHILDREN,WANT_FUR):-
+	noisy_consider(PET_TYPE,IS_NOISY),
+	flea_consider(PET_TYPE,ALLER_FLEA),
+	sitting_consider(PET_TYPE,FREETIME),
+	feeding_consider(PET_TYPE,BUDGET),
+	resident_consider(PET_TYPE,RES),
+	children_consider(PET_TYPE,HAVE_CHILDREN),
+	fur_consider(PET_TYPE,WANT_FUR).
 
 
 
