@@ -57,7 +57,12 @@ have_sound(dog).
 have_sound(horse).
 have_sound(cat).
 
-% pet_sitting(pet_type,time)
+% no_sound(pet_type)
+no_sound(fish).
+no_sound(tutle).
+no_sound(rabbit).
+
+% pet_sitting(pet_type)
 pet_sitting(horse).
 pet_sitting(cat).
 pet_sitting(dog).
@@ -85,7 +90,6 @@ aggressive_lv(dog,2).
 aggressive_lv(cat,2).
 aggressive_lv(fish,1).
 aggressive_lv(turtle,1).
-
 
 
 
