@@ -1,4 +1,4 @@
-# Pet_recommendation
+# Pet recommendation
 
 ## Application description
 ```
