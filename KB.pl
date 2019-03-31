@@ -16,6 +16,10 @@ have_fur(horse).
 have_fur(dog).
 have_fur(cat).
 
+% no_fur(_type)
+no_fur(fish).
+no_fur(turtle).
+
 % need_care(pet_type)
 need_care(rabbit).
 need_care(horse).
@@ -42,7 +46,11 @@ price_per_month(fish,2000).
 have_flea(dog).
 have_flea(cat).
 have_flea(horse).
-have_flea(fish).
+have_flea(rabbit).
+
+% no_flea(pet_type)
+no_flea(turtle).
+no_flea(fish).
 
 % have_sound(pet_type)
 have_sound(dog).
