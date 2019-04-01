@@ -1,4 +1,4 @@
-:- use_moduled(petRec,[]).
+:- use_module(petRec,[]).
 
 feeding_3_month(PET_TYPE,TOTAL):- 
 	petRec:pet_price(PET_TYPE,PRICE) 
@@ -10,7 +10,7 @@ feeding_consider(PET_TYPE,BUDGET):-
 
 sitting_consider(PET_TYPE,FREETIME) :-
 	(FREETIME = "YES"),petRec:pet_sitting(PET_TYPE) | (FREETIME="NO") 
-	, petRec:not(pet_sitting(PET_TYPE)).
+	, petRec:(no_pet_sitting(PET_TYPE)).
 
 fur_consider(PET_TYPE,WANT_FUR):-
 	(WANT_FUR = "YES") , petRec:have_fur(PET_TYPE) 
