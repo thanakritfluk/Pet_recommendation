@@ -9,7 +9,6 @@ pet(dog).
 pet(cat).
 pet(turtle).
 pet(fish).
-
 pet(chicken).
 pet(hamster).
 pet(bird).
@@ -50,6 +49,8 @@ price_per_month(turtle,3700).
 price_per_month(fish,2000).
 price_per_month(chicken,1000).
 price_per_month(hamster,500).
+price_per_month(bird,3800).
+price_per_month(snake,3400).
 
 % have_flea(pet_type)
 have_flea(dog).
